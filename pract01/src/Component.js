@@ -1,11 +1,18 @@
-
+import {useState,setState} from 'react'
 const Component = () => {
-    const handleClick = () => {
-        alert("hii");
-    }
+    const [item,setitem]= useState('');
+    const [count,setCount]= useState(0);
+  const  handleClick = ()=> {
+        setCount(count + 1 );
+      };
   return (
     <div>
-        <button onClick={handleClick()}>CLick</button>
+        <p>{"My name is "+item}</p>
+        <input value={item} onChange={(ano)=>setitem(ano.target.value)}/>
+       <br></br>
+       <button className="block" onClick={handleClick}>
+          Click + {count}
+        </button>
     </div>
   )
 }

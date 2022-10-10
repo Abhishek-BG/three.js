@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import logo from './logo.svg';
 import Header from './header'
-import Component from './Component'
+import PlaneScene from './PlaneSecne'
 function App() {
   return (
     <>
      <Header/>
-     <Component/>
+     <PlaneScene/>
     </>
   );
 }

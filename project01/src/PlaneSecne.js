@@ -120,3 +120,4 @@ this.addEventListener('mousemove', (event) => {
 }
 
 export default Scene 
+//Plane Scene SphereGeometry

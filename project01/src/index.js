@@ -7,6 +7,7 @@ function App() {
   return (
     <>
      <Header/>
+     {/* //Plane Scene SphereGeometry */}
      <PlaneScene/>
     </>
   );

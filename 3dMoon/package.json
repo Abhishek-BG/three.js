@@ -2,7 +2,7 @@
   "name": "3dMoon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhishek-bg.github.io/three.js/3dMoon",
+  "homepage": "https://abhishek-bg.github.io/three.js/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

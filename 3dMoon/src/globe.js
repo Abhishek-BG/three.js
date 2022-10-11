@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import moon from './img/moon.jpeg';
 import  gsap from 'gsap'
-import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js'
+import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls';
 import { REVISION } from 'three';
 
 const scene = new THREE.Scene()
@@ -25,7 +25,7 @@ new THREE.MeshBasicMaterial({
     
     controls.update();
 scene.add( sphere );
-camera.position.z=10;
+camera.position.z=14;
 
 //stars
 const vertices = [];
@@ -58,7 +58,7 @@ scene.add(backLight)
 function Animate(){
     requestAnimationFrame(Animate);
     
-    sphere.rotation.y +=0.003
+    sphere.rotation.y +=0.004
     renderer.render(scene,camera)
     
     setInterval(camera.translateZ(0.002),2000);

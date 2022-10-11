@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e63f32c.css",
-    "main.js": "/static/js/main.41d2e801.js",
-    "static/media/moon.jpeg": "/static/media/moon.b9c2611f4a565337e5af.jpeg",
-    "static/media/RubikMoonrocks-Regular.ttf": "/static/media/RubikMoonrocks-Regular.9a63461baa64bd258a97.ttf",
-    "index.html": "/index.html",
-    "main.9e63f32c.css.map": "/static/css/main.9e63f32c.css.map",
-    "main.41d2e801.js.map": "/static/js/main.41d2e801.js.map"
+    "main.css": "/three.js/3dMoon/static/css/main.f6d1b383.css",
+    "main.js": "/three.js/3dMoon/static/js/main.a9fe2414.js",
+    "static/media/moon.jpeg": "/three.js/3dMoon/static/media/moon.b9c2611f4a565337e5af.jpeg",
+    "static/media/RubikMoonrocks-Regular.ttf": "/three.js/3dMoon/static/media/RubikMoonrocks-Regular.9a63461baa64bd258a97.ttf",
+    "index.html": "/three.js/3dMoon/index.html",
+    "main.f6d1b383.css.map": "/three.js/3dMoon/static/css/main.f6d1b383.css.map",
+    "main.a9fe2414.js.map": "/three.js/3dMoon/static/js/main.a9fe2414.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e63f32c.css",
-    "static/js/main.41d2e801.js"
+    "static/css/main.f6d1b383.css",
+    "static/js/main.a9fe2414.js"
   ]
 }

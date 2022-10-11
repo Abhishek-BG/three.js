@@ -80,8 +80,8 @@ const mouse = {
 }
 
 let frame = 0
-function animate() {
-  requestAnimationFrame(animate)
+function Animate() {
+  requestAnimationFrame(Animate)
   renderer.render(scene, camera)
   raycaster.setFromCamera(mouse, camera)
   frame += 0.01
@@ -105,7 +105,7 @@ function animate() {
 
 }
 
-animate();
+
 
 this.addEventListener('mousemove', (event) => {
   mouse.x = (event.clientX / window.innerWidth) * 2 - 1
@@ -114,7 +114,7 @@ this.addEventListener('mousemove', (event) => {
 
   return (
     <div>
-     <h1>Hello</h1>
+      <Animate/>
     </div>
   )
 }

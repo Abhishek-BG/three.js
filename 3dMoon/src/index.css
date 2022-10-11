@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+canvas{
+  float:left;
+  width:100%;
+  height:100%;
+  margin:0px;
+}
+.content{
+margin-left:20px;
+margin-top:40%;
+}
+.heading{
+  color:white;
+  font-family: 'RubikMoonrocks-Regular';
+}
+.about{
+  color:rgb(155, 153, 153);
+}
+@font-face {
+  font-family: 'RubikMoonrocks-Regular';
+  src: url(../public/RubikMoonrocks-Regular.ttf) format('woff2');
+ }

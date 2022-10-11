@@ -17,7 +17,7 @@ document.getElementById('moon').appendChild( renderer.domElement );
 const sphere = new THREE.Mesh( new THREE.SphereGeometry(8,50,50),
 new THREE.MeshBasicMaterial({
     //load image
-    map:new THREE.TextureLoader().load(moon),flatShading:true,
+    map:new THREE.TextureLoader().load(moon),
     blending: THREE.AdditiveBlending,
     side:THREE.AmbientLight
     }));
@@ -25,7 +25,8 @@ new THREE.MeshBasicMaterial({
     
     controls.update();
 scene.add( sphere );
-camera.position.z=24;
+camera.position.z=10;
+
 //stars
 const vertices = [];
 
@@ -53,11 +54,14 @@ scene.add(light)
 const backLight = new THREE.DirectionalLight(0xffffff, 1)
 backLight.position.set(1, 0, -1)
 scene.add(backLight)
+
 function Animate(){
     requestAnimationFrame(Animate);
     
     sphere.rotation.y +=0.003
     renderer.render(scene,camera)
+    
+    setInterval(camera.translateZ(0.002),2000);
 }
 
 
@@ -73,7 +77,7 @@ const globe = () => {
                     <p>This is a 3D model of moon built using Three.js and React.js a astetic animation model 
                     that is used to interact with the model.</p>
                 </div>
-                <div class="button"><button type="button" class="btn btn-light">Know More</button></div>
+                <div class="button"><button type="button" class="btn btn-light" >Know More</button></div>
    </div>
    </>
   )

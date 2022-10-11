@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { Outlet, Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+
 import PlaneScene from './PlaneSecne'
 import Globe from './globe'
 

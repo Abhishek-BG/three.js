@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e63f32c.css",
+    "main.js": "/static/js/main.41d2e801.js",
+    "static/media/moon.jpeg": "/static/media/moon.b9c2611f4a565337e5af.jpeg",
+    "static/media/RubikMoonrocks-Regular.ttf": "/static/media/RubikMoonrocks-Regular.9a63461baa64bd258a97.ttf",
+    "index.html": "/index.html",
+    "main.9e63f32c.css.map": "/static/css/main.9e63f32c.css.map",
+    "main.41d2e801.js.map": "/static/js/main.41d2e801.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e63f32c.css",
+    "static/js/main.41d2e801.js"
+  ]
+}
